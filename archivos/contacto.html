@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>MAQUILLAJE</title>
+        <link rel="stylesheet" href="../ccs/Estilos.css">
+    </head>
+    <body>
+        <header>
+            <img src="../fotos/sephoralogo.png" alt="" id="principal">
+            <ul>
+                <li><a href="../index.html">INICIO</a></li>
+                <li><a href="galeria.html">GALERÍA</a></li>
+                <li class="menu">CONTACTO</li>
+                <li><a href="ubicacion.html">UBICACIÓN</a></li>
+            
+            </ul>
+        </header>
+        <main>
+            <form>
+                <label class="Formulario">Nombre:</label><input type="text" class="cuadrado" placeholder="Nombre y apellidos" pattern="[a-z]{1,15}"><br><br>
+                <label class="Formulario">Teléfono:</label> <input type="text" class="cuadrado" placeholder="+34" pattern="[1-9]{1,11}"><br><br>
+                <label class="Formulario">Email:</label><input type="email" class="cuadrado" placeholder="@gmail.com" pattern="[a-z][@]"><br><br>
+                <label class="Formulario">Contraseña:</label><input type="password" class="cuadrado" placeholder="Solo números" pattern="[1-9]"><br><br>
+  <!--Asigné un label y una class a cada punto del formulario para poder darle estilos en la carpeta ccs-->                 
+                <textarea cols="30" rows="10" placeholder=" Deja aqui tu comentatio.."></textarea><br><br>
+                <input type="checkbox" required> Política de privacidad <br><br> 
+                <input type="radio" name="cosa"> Si
+                <input type="radio" name="cosa"> NO <br><br>
+                <input type="submit" value="ENVIAR"> 
+                <input type="reset" value="BORRAR">
+   <!--Asigné inputs para poder hacer la dinamica del formulario-->                
+            </form>
+        </main>
+        <footer>
+            <span class="spanto">
+                <label class="probar">Formas de pago</label>
+                <label class="probar">Política de privacidad y cookies</label> 
+             
+            </span>
+            <span class="spanto">
+                <label class="probar">Preferencia de cookies</label>
+                <label class="probar">Aviso legal y condiciones</label>
+            </span>
+            <span class="spanto">
+                <label class="probar">Condicones de publicación</label>
+                <label class="probar">Puedes consultar las marcas excluidas de nuestras promociones aquí.</label>
+            </span >
+            <div id="redes">
+                <a href="https://www.facebook.com" style="color: black;"><img src="../inicio/fb.png" alt="Foto y enclace de Facebook" width="325" height="325" class="face"></a>
+                <a href="https://www.instagram.com" style="color: black;"><img src="../inicio/ig.png" alt="Foto y enclace de Instagram" width="1200" height="1200" class="insta"></a>
+                <a href="https://www.tiktok.com/es" style="color: black;"><img src="../inicio/tiktok_v4.png.avif" alt="Foto y enlace de TikTok" width="534" height="400" class="tiktk"></a>
+            </div>
+        </footer>
+        <!--Inserté los enlaces de las redes sociales para que se redirija automáticamente-->
+       
+    
+    </body>
+
+
+
+             
+</html>
